@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ToolBarExample">
+<!--  CARD DETAIL SCREEN MENU  -->
+    <item
+        android:id="@+id/cardMenuShare"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="1"
+        android:title="Share"
+        app:showAsAction="always" />
+</menu>
